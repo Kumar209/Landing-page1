@@ -1,0 +1,128 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #E4F9F5;
+    margin: 0;
+    padding-top: 75px; 
+}
+
+/* Header Section */
+#header{
+    position: fixed;
+    width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#header-img{
+    width: 30%;
+}
+
+li{
+    margin: 0 1.5rem;
+}
+
+
+/* form section */
+#form-section{
+    text-align: center;
+    margin: 6% 0 2%;
+}
+
+#email{
+    width: 20%;
+    margin: 1% 0;
+}
+
+#submit{
+    width: 10%;
+    background-color: #F9D371;
+}
+
+
+/* Rest Section */
+
+#features{
+    width: 60%;
+    margin: 4% auto;
+}
+
+.ficol{
+    color: orange;
+}
+
+#HTW{
+    margin: 2% auto 0;
+    text-align: center;
+}
+
+
+/* Pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.btn-price{
+    margin: 5% 0 0;
+}
+
+
+/* Footer section */
+
+#footer{
+    background-color: #66BFBF;
+    text-align: center;
+    padding: 2% 0;
+    
+}
+
+
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1% 1.5%;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.footer-cp{
+    margin-top: 1%;
+    color: white;
+    
+}
+
+
+    
+/*media query*/
+
+@media(max-width: 830px){
+    #submit{
+       width: 22%;
+    }
+
+    #email{
+        width: 35%;
+    }
+
+    .ficol{
+        margin: 1%;
+    }
+
+    #header-img{
+        width: 50%;
+    }
+
+    #video{
+        width: 90%;
+    }
+}
